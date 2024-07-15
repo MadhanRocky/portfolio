@@ -6,10 +6,12 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+import favicon from "./favicon.jpg"
 import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  image: favicon,
   title: "Portfolio of Madhan - Frontend Developer",
   description:
     "This is the portfolio of Madhan. I am a full frontend developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
