@@ -9,7 +9,19 @@ import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 
+
 function HeroSection() {
+  const onButtonClick = () => {
+    logEvent('User', 'Clicked Button',)
+    logException('download button clicked', true);
+    const pdfUrl = '/MadhanS_ReactJs_1yrExp.pdf';
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Corporate Presentation.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
@@ -78,6 +90,7 @@ function HeroSection() {
             </Link>
 
             <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
+            // onClick={()=>onButtonClick()}
             >
               <span>Get Resume</span>
               <MdDownload size={16} />
