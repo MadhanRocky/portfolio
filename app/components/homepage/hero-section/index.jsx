@@ -14,7 +14,7 @@ function HeroSection() {
   const onButtonClick = () => {
     logEvent('User', 'Clicked Button',)
     logException('download button clicked', true);
-    const pdfUrl = '/MadhanS_ReactJs_1yrExp.pdf';
+    const pdfUrl = '/Madhan.S.pdf';
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Corporate Presentation.pdf";
@@ -121,7 +121,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Madhan</span>
+                <span className="text-amber-300">Madhan.S</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -133,14 +133,16 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Redux</span>
                 <span className="text-gray-400">{"', '"}</span>
-                {/* <span className="text-amber-300">Express</span>
-                <span className="text-gray-400">{"', '"}</span> */}
+                <span className="text-amber-300">Express</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Typescript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
-                {/* <span className="text-gray-400">{"', '"}</span>
+                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
+                   <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">DotNet</span>
+                {/*<span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span> */}
@@ -184,7 +186,7 @@ function HeroSection() {
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
                 <span className="mr-2 text-white">skills.length</span>
                 <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="text-orange-400">8</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>

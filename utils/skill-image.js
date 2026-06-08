@@ -12,6 +12,7 @@ import canva from '/public/svg/skills/canva.svg';
 import capacitorjs from '/public/svg/skills/capacitorjs.svg';
 import coffeescript from '/public/svg/skills/coffeescript.svg';
 import cplusplus from '/public/svg/skills/cplusplus.svg';
+import DotNet from '/public/svg/skills/dotnet.svg';
 import csharp from '/public/svg/skills/csharp.svg';
 import css from '/public/svg/skills/css.svg';
 import dart from '/public/svg/skills/dart.svg';
@@ -79,7 +80,7 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     // case 'gcp':
     //   return gcp;
-    case 'html':
+    case 'html5':
       return html;
     case 'photoshop':
       return photoshop;
@@ -119,8 +120,8 @@ export const skillsImage = (skill) => {
     //   return coffeescript;
     // case 'memsql':
     //   return memsql;
-    // case 'mongodb':
-    //   return mongoDB;
+    case 'mongodb':
+      return mongoDB;
     case 'mysql':
       return mysql;
     // case 'postgresql':
@@ -135,6 +136,8 @@ export const skillsImage = (skill) => {
       return c;
     case 'c++':
       return cplusplus;
+      case '.net':
+        return DotNet;
     // case 'c#':
     //   return csharp;
     // case 'dart':
@@ -211,8 +214,8 @@ export const skillsImage = (skill) => {
     //   return haxe;
     // case 'ionic':
     //   return ionic;
-    // case 'markdown':
-    //   return markdown;
+    case 'markdown':
+      return markdown;
     case 'microsoft office':
       return microsoftoffice;
     case 'picsart':
@@ -223,8 +226,8 @@ export const skillsImage = (skill) => {
     //   return unity;
     // case 'wolframalpha':
     //   return wolframalpha;
-    // case 'canva':
-    //   return canva;
+    case 'canva':
+      return canva;
     default:
       break;
   }

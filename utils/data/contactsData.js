@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'MadhanRocky866@gmail.com',
-    phone: '+91 8220164280',
-    address: '13/171, 2nd street Agiees Nagar, Tondiarpet, Chennai -81',
+    email: 'madhans199708@gmail.com',
+    phone: '+91 8220501702',
+    address: '33/31, Major Saravanan Salai, Kargilnagar, Chennai -19',
     github: 'https://github.com/MadhanRocky',
     facebook: 'https://www.facebook.com/madhan.rockesh/',
     linkedIn: 'https://www.linkedin.com/in/madhanrocky/',

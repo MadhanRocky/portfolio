@@ -2,19 +2,13 @@ export const experiences = [
   {
     id: 1,
     title: 'Frontend Developer',
-    company: "blackwins tech solutions.",
-    duration: "(July 2023 - Present)"
+    company: "CornerstoneX.",
+    duration: "(OCT 2024 - MAR 2026)"
   },
   {
     id: 2,
-    title: "Paginator",
-    company: "Deloitte digital Content Studios.",
-    duration: "(Dec 2019 - Nov 2022)"
-  },
-  {
-    id: 3,
-    title: "Telecaller",
-    company: "Aiwin commodity.",
-    duration: "(Jan 2019 - May 2019)"
+    title: "Software Developer",
+    company: "Intellisense Software Pvt Ltd.",
+    duration: "(AUG 2021 - AUG 2024)"
   }
 ]
